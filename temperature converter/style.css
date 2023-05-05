@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: rgb(241, 241, 227);
+}
+.main{
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    margin-top: 150px;
+    background-color: #c7c5c5;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 5px 10px 18px #201f1f;
+    border: solid 2px red;
+    border-radius: 10px;
+    
+}
+.main input{
+    height: 30px;
+    border-radius: 5px;
+    border: solid 2px rgb(24, 24, 110);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.select-tag{
+    height: 30px;
+    width: 92%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid 2px rgb(24, 24, 110);
+}
+
+#result{
+    
+    
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 2px rgb(24, 24, 110);
+}
+.convert{
+    height: 40px;
+    color: #fff;
+    background-color: rgb(24, 24, 110);
+    border: solid 2px rgb(24, 24, 110);
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+
+    
+}
+.convert:hover{
+    background-color: #fff;
+    color: rgb(24, 24, 110);
+    border: solid 2px rgb(24, 24, 110);
+}
+.main h1{
+    color: red;
+    text-align: center;
+}
+.main label{
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(24, 24, 110);
+    font-weight: bold;
+
+}
