@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css files/contactcss.css">
+</head>
+<body>
+    <header>
+    
+        <h1 class="logo">Portfolio</h1>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html"  class="active">Contact Me</a></li>
+            
+        </ul>
+       
+    </nav>
+</header>
+    <h1 class="contact-me-heading">Contact <span class="me-span">Me!</span></h1>
+    <form action="https://formsubmit.co/vanamsreenu78@gmail.com" method="post">
+    <div class="div-top">
+        
+    <div class="details-main-div">
+        <div class="name-email-div">
+            <input type="text" class="full-name" id="full-name" placeholder="Full Name" name="name" required>
+            <input  class="email-address" id="email-address" placeholder="Email Address" type="email" name="email" required>
+
+        </div>
+        <div class="number-subject-div">
+            <input type="text" class="mobile-number" type="text" id="mobile-number" placeholder="Mobile Number" name="mobile" required>
+            <input type="text" class="email-subject" id="email-subject" placeholder="Email Subject" name="subject" required>
+
+
+        </div>
+        <div class="msg-area-div">
+            <textarea type="text" name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+
+        </div>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://nz0m24uttgjh1ilc4bt9jw.on.drv.tw/www.mineportfolio.com/thank.html">
+        <input type="hidden" name="_template" value="table">
+        <div class="btn-div">
+            <button class="send-message" id="send-message" type="submit">Send Message</button>
+        </div>
+    </div>
+</div>
+</form>
+
+
+
+
+
+
+
+
+<script>
+    hamburger=document.querySelector(".hamburger");
+    hamburger.onclick = function(){
+        navBar=document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+        
+        }
+ </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css files/aboutcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About Me</title>
+</head>
+<body>
+    <header>
+    
+        <h1 class="logo">Portfolio</h1>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html"  class="active">About Me</a></li>
+            <li><a href="contact.html" >Contact Me</a></li>
+        </ul>
+       
+    </nav>
+</header>
+    <div class="top-div">
+        <h1 class="about-me-head">About <span class="me-span">Me!</span></h1>
+        <div class="main-div">
+            <div class="image-div">
+                <img src="images/minephoto.jpg" alt="Its mine">
+
+            </div>
+            <div class="details-div">
+                <h1>I'm a Front End Developer</h1>
+                <br>
+                
+                <p>My self Vanam Thirumaleshu student of JNTUA college of engineering Ananthapur,Andhrapradesh. <br>
+                    And I am ready to work for any projects ,to show my skills in front-end web development and to gain experience from real world projects.
+                    <br>Currently I am learning Django web framework for the purpose of Back-end web development.
+                    You can contact me for taking me with your work iam always glad to work with you..... 
+
+                </p>
+                <div class="mail-phone-div">
+                    <h1 class="fa fa-phone fa-3x"></h1>
+                    
+                    <h1>Phone: 7780312522</h1>
+                    
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+            }
+     </script>
+</body>
+</html>

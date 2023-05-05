@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css files/indexcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    
+        <h1 class="logo">Portfolio</h1>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html" >Contact Me</a></li>
+        </ul>
+       
+    </nav>
+</header>
+    <div class="main-div">
+        <div class="info">
+            <label class="hello">Hello, It's Me</label><br>
+            <label class="name">
+                Vanam Thirumaleshu
+            </label><br>
+            <label class="work">
+                And I'm a <span class="role">Front-end Web Developer</span>
+            </label><br>
+            <label>
+                I am always ready to work....
+            </label>
+            <br><br>
+            <a href="https://www.linkedin.com/in/vanam-thirumaleshu-1b44a4254/" class="fa fa-linkedin fa-2x" ></a>
+            <a href="https://twitter.com/VThirumaleshu" class="fa fa-twitter fa-2x"></a>
+            <a href="https://www.instagram.com/thirumu333/?next=%2F" class="fa fa-instagram fa-2x"></a>
+            <br><br>
+            <a href="resume.html"><button class="download-cv" id="download-cv">Go To CV</button></a>
+        </div>
+        <div class="image">
+            <img src="images/minephoto.jpg" alt="My Photo" width="100%" height="100%" >
+        </div>
+    </div>
+
+    
+
+
+
+
+    
+ <script>
+    hamburger=document.querySelector(".hamburger");
+    hamburger.onclick = function(){
+        navBar=document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+        }
+    
+ </script>
+      
+</body>
+</html>
